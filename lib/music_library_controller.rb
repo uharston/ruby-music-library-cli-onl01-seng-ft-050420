@@ -44,8 +44,8 @@ class MusicLibraryController
  end
 
  def list_artists
-   Song.all.sort{|a, b| 
-     binding.pry 
+   Song.all.sort{|a, b|
+     binding.pry
      a.name <=> b.name }.each_with_index do |a, i|
      puts "#{i+1}.#{a.artist.name}"
    end
