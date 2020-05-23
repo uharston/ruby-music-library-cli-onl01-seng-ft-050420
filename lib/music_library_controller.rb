@@ -38,7 +38,8 @@ class MusicLibraryController
  end
 
  def list_songs
- binding.pry
+   Song.all.collec
+ #binding.pry
  end
 
  def list_artists
