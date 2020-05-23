@@ -41,7 +41,7 @@ class MusicLibraryController
    Song.all.each_with_index do |song, index|
      "#{index + 1}. #{song}"
  #binding.pry
- end 
+ end
  end
 
  def list_artists
