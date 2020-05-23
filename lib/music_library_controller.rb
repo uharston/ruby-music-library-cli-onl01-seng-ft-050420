@@ -16,7 +16,7 @@ class MusicLibraryController
    puts "What would you like to do?"
    response = gets.strip
 
-   case response 
+   case response
     when "list songs"
       list_songs
     when "list artists"
