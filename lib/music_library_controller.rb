@@ -32,11 +32,11 @@ class MusicLibraryController
     when 'play song'
       play_song
     end
- end
+  end
  end
 
  def list_songs
-
+ binding.pry 
  end
 
  def list_artists
