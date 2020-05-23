@@ -38,8 +38,10 @@ class MusicLibraryController
  end
 
  def list_songs
-   Song.all.collec
+   Song.all.each_with_index do |song, index|
+     "#{index + 1}. #{song}"
  #binding.pry
+ end 
  end
 
  def list_artists
