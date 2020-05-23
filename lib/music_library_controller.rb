@@ -17,4 +17,8 @@ class MusicLibraryController
    response = gets.strip
  end
 
+ def list_songs 
+
+ end 
+
 end
